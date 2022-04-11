@@ -1,0 +1,41 @@
+*{
+    color:white;
+}
+
+.container{
+    width: auto;
+    height: autop;
+    padding: 20px;  
+    align-items: center;
+}
+
+.row{
+    display: flex;
+}
+
+.col{
+    flex: 4;
+    justify-content: space-between;
+    background-color: pink;
+    margin: 10px;
+    padding: 8px;
+    text-align: left;
+}
+
+.col-2{
+    flex: 3;
+    justify-content: space-between;
+    background-color: pink;
+    margin: 10px;
+    padding: 8px;
+    text-align: left;
+}
+
+.col-3{
+    flex: 5;
+    justify-content: space-between;
+    background-color: pink;
+    margin: 10px;
+    padding: 8px;
+    text-align: left;
+}
